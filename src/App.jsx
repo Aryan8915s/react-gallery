@@ -30,7 +30,7 @@ const App = () => {
 
 
   return (
-    <div className='bg-black text-white overflow-auto h-screen p-4'>
+    <div className="bg-[url('https://images.pexels.com/photos/1242348/pexels-photo-1242348.jpeg')] text-white overflow-auto h-screen p-4 bg-size-[100%]">
       <div className='h-[86%] flex flex-wrap gap-4'>
         {printUserData}
       </div>
